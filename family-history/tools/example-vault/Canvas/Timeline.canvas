@@ -1,0 +1,326 @@
+{
+ "nodes": [
+  {
+   "id": "lane-Smith",
+   "type": "text",
+   "x": -900,
+   "y": 0,
+   "width": 800,
+   "height": 90,
+   "text": "## Smith side",
+   "color": "6"
+  },
+  {
+   "id": "p-5f189ec8a3ae",
+   "type": "file",
+   "file": "People/William Ward (1840–1910).md",
+   "x": 9600,
+   "y": 0,
+   "width": 2800,
+   "height": 90,
+   "color": "2"
+  },
+  {
+   "id": "p-9878bcb21722",
+   "type": "file",
+   "file": "People/John Smith (1870–1931).md",
+   "x": 10800,
+   "y": 110,
+   "width": 2440,
+   "height": 90,
+   "color": "4"
+  },
+  {
+   "id": "p-1244b487bce1",
+   "type": "file",
+   "file": "People/Ellen Ward (1874–1940).md",
+   "x": 10960,
+   "y": 220,
+   "width": 2640,
+   "height": 90,
+   "color": "2"
+  },
+  {
+   "id": "p-a8cc8d2635fa",
+   "type": "file",
+   "file": "People/Albert Smith (1901–1975).md",
+   "x": 12040,
+   "y": 330,
+   "width": 2960,
+   "height": 90,
+   "color": "4"
+  },
+  {
+   "id": "p-3514dd7d2160",
+   "type": "file",
+   "file": "People/Peter Smith (1950).md",
+   "x": 14000,
+   "y": 0,
+   "width": 2400,
+   "height": 90
+  },
+  {
+   "id": "lane-Baker",
+   "type": "text",
+   "x": -900,
+   "y": 750,
+   "width": 800,
+   "height": 90,
+   "text": "## Baker side",
+   "color": "6"
+  },
+  {
+   "id": "p-a9541e44d7a2",
+   "type": "file",
+   "file": "People/Henry Baker (1872–1950).md",
+   "x": 10880,
+   "y": 750,
+   "width": 3120,
+   "height": 90,
+   "color": "3"
+  },
+  {
+   "id": "p-bc95dd453fe6",
+   "type": "file",
+   "file": "People/Mary Ward (1876–1945).md",
+   "x": 11040,
+   "y": 860,
+   "width": 2760,
+   "height": 90,
+   "color": "3"
+  },
+  {
+   "id": "p-be47b906c988",
+   "type": "file",
+   "file": "People/Rose Baker (1904–1990).md",
+   "x": 12160,
+   "y": 970,
+   "width": 3440,
+   "height": 90,
+   "color": "4"
+  },
+  {
+   "id": "lane-Nowak",
+   "type": "text",
+   "x": -900,
+   "y": 1390,
+   "width": 800,
+   "height": 90,
+   "text": "## Nowak side",
+   "color": "6"
+  },
+  {
+   "id": "p-59a95f3f1690",
+   "type": "file",
+   "file": "People/Tomasz Nowak (1898–1960).md",
+   "x": 11920,
+   "y": 1390,
+   "width": 2480,
+   "height": 90,
+   "color": "4"
+  },
+  {
+   "id": "lane-Kowalska",
+   "type": "text",
+   "x": -900,
+   "y": 1810,
+   "width": 800,
+   "height": 90,
+   "text": "## Kowalska side",
+   "color": "6"
+  },
+  {
+   "id": "p-702cbed5ca8e",
+   "type": "file",
+   "file": "People/Anna Kowalska (fl. 1900).md",
+   "x": 11000,
+   "y": 1810,
+   "width": 2400,
+   "height": 90
+  },
+  {
+   "id": "p-613fed9b677f",
+   "type": "file",
+   "file": "People/Maria Kowalska (1902–1981).md",
+   "x": 12080,
+   "y": 1920,
+   "width": 3160,
+   "height": 90,
+   "color": "5"
+  },
+  {
+   "id": "lane-Other",
+   "type": "text",
+   "x": -900,
+   "y": 2340,
+   "width": 800,
+   "height": 90,
+   "text": "## Other side",
+   "color": "6"
+  },
+  {
+   "id": "yr1600",
+   "type": "text",
+   "x": 0,
+   "y": -420,
+   "width": 300,
+   "height": 70,
+   "text": "**1600**",
+   "color": "6"
+  },
+  {
+   "id": "yr1650",
+   "type": "text",
+   "x": 2000,
+   "y": -420,
+   "width": 300,
+   "height": 70,
+   "text": "**1650**"
+  },
+  {
+   "id": "yr1700",
+   "type": "text",
+   "x": 4000,
+   "y": -420,
+   "width": 300,
+   "height": 70,
+   "text": "**1700**",
+   "color": "6"
+  },
+  {
+   "id": "yr1750",
+   "type": "text",
+   "x": 6000,
+   "y": -420,
+   "width": 300,
+   "height": 70,
+   "text": "**1750**"
+  },
+  {
+   "id": "yr1800",
+   "type": "text",
+   "x": 8000,
+   "y": -420,
+   "width": 300,
+   "height": 70,
+   "text": "**1800**",
+   "color": "6"
+  },
+  {
+   "id": "yr1850",
+   "type": "text",
+   "x": 10000,
+   "y": -420,
+   "width": 300,
+   "height": 70,
+   "text": "**1850**"
+  },
+  {
+   "id": "yr1900",
+   "type": "text",
+   "x": 12000,
+   "y": -420,
+   "width": 300,
+   "height": 70,
+   "text": "**1900**",
+   "color": "6"
+  },
+  {
+   "id": "yr1950",
+   "type": "text",
+   "x": 14000,
+   "y": -420,
+   "width": 300,
+   "height": 70,
+   "text": "**1950**"
+  },
+  {
+   "id": "yr2000",
+   "type": "text",
+   "x": 16000,
+   "y": -420,
+   "width": 300,
+   "height": 70,
+   "text": "**2000**",
+   "color": "6"
+  },
+  {
+   "id": "yr2050",
+   "type": "text",
+   "x": 18000,
+   "y": -420,
+   "width": 300,
+   "height": 70,
+   "text": "**2050**"
+  },
+  {
+   "id": "h-c44162c4b020",
+   "type": "file",
+   "file": "History/1921 The Nowaks emigrate.md",
+   "x": 12840,
+   "y": -670,
+   "width": 700,
+   "height": 90
+  },
+  {
+   "id": "legend",
+   "type": "text",
+   "x": -900,
+   "y": -780,
+   "width": 800,
+   "height": 360,
+   "text": "**Timeline**\n\nEach box spans a lifetime (left edge = birth). Lanes = grandparent sides.\n\nColoured = direct ancestor (green documented · cyan strong inference · yellow family compilation · orange compiled lead · red unresolved). Grey = relative, not an ancestor.\n\nEstimated dates (fl., c., centuries) are approximate. Living people are never shown. Events along the top. A few links cross lanes where one ancestor appears on two sides (see Double ancestors).\n\nRebuild: `python3 _System/tools/timeline.py`"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e-p-a9541e44d7a2-p-be47b906c988",
+   "fromNode": "p-a9541e44d7a2",
+   "fromSide": "right",
+   "toNode": "p-be47b906c988",
+   "toSide": "left"
+  },
+  {
+   "id": "e-p-bc95dd453fe6-p-be47b906c988",
+   "fromNode": "p-bc95dd453fe6",
+   "fromSide": "right",
+   "toNode": "p-be47b906c988",
+   "toSide": "left"
+  },
+  {
+   "id": "e-p-5f189ec8a3ae-p-bc95dd453fe6",
+   "fromNode": "p-5f189ec8a3ae",
+   "fromSide": "right",
+   "toNode": "p-bc95dd453fe6",
+   "toSide": "left"
+  },
+  {
+   "id": "e-p-9878bcb21722-p-a8cc8d2635fa",
+   "fromNode": "p-9878bcb21722",
+   "fromSide": "right",
+   "toNode": "p-a8cc8d2635fa",
+   "toSide": "left"
+  },
+  {
+   "id": "e-p-1244b487bce1-p-a8cc8d2635fa",
+   "fromNode": "p-1244b487bce1",
+   "fromSide": "right",
+   "toNode": "p-a8cc8d2635fa",
+   "toSide": "left"
+  },
+  {
+   "id": "e-p-702cbed5ca8e-p-613fed9b677f",
+   "fromNode": "p-702cbed5ca8e",
+   "fromSide": "right",
+   "toNode": "p-613fed9b677f",
+   "toSide": "left"
+  },
+  {
+   "id": "e-p-5f189ec8a3ae-p-1244b487bce1",
+   "fromNode": "p-5f189ec8a3ae",
+   "fromSide": "right",
+   "toNode": "p-1244b487bce1",
+   "toSide": "left"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "nodes": [
+  {
+   "id": "a4",
+   "type": "file",
+   "file": "People/Albert Smith (1901–1975).md",
+   "x": 0,
+   "y": 170,
+   "width": 420,
+   "height": 300,
+   "color": "4"
+  },
+  {
+   "id": "a8",
+   "type": "file",
+   "file": "People/John Smith (1870–1931).md",
+   "x": 480,
+   "y": 0,
+   "width": 420,
+   "height": 300,
+   "color": "4"
+  },
+  {
+   "id": "a9",
+   "type": "file",
+   "file": "People/Ellen Ward (1874–1940).md",
+   "x": 480,
+   "y": 340,
+   "width": 420,
+   "height": 300,
+   "color": "2"
+  },
+  {
+   "id": "a18",
+   "type": "file",
+   "file": "People/William Ward (1840–1910).md",
+   "x": 960,
+   "y": 340,
+   "width": 420,
+   "height": 300,
+   "color": "2"
+  },
+  {
+   "id": "legend",
+   "type": "text",
+   "x": -480,
+   "y": 0,
+   "width": 420,
+   "height": 230,
+   "text": "**Smith side**\n\nAncestors of the grandparent at left, parents to the right.\n\nColors: green = documented · cyan = strong inference · yellow = family compilation · orange = compiled lead · red = unresolved · grey = not set"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e4_8",
+   "fromNode": "a4",
+   "fromSide": "right",
+   "toNode": "a8",
+   "toSide": "left"
+  },
+  {
+   "id": "e4_9",
+   "fromNode": "a4",
+   "fromSide": "right",
+   "toNode": "a9",
+   "toSide": "left"
+  },
+  {
+   "id": "e9_18",
+   "fromNode": "a9",
+   "fromSide": "right",
+   "toNode": "a18",
+   "toSide": "left"
+  }
+ ]
+}

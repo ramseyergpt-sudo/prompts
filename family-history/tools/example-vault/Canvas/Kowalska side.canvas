@@ -1,0 +1,41 @@
+{
+ "nodes": [
+  {
+   "id": "a15",
+   "type": "file",
+   "file": "People/Anna Kowalska (fl. 1900).md",
+   "x": 480,
+   "y": 0,
+   "width": 420,
+   "height": 300
+  },
+  {
+   "id": "a7",
+   "type": "file",
+   "file": "People/Maria Kowalska (1902–1981).md",
+   "x": 0,
+   "y": 0,
+   "width": 420,
+   "height": 300,
+   "color": "5"
+  },
+  {
+   "id": "legend",
+   "type": "text",
+   "x": -480,
+   "y": 0,
+   "width": 420,
+   "height": 230,
+   "text": "**Kowalska side**\n\nAncestors of the grandparent at left, parents to the right.\n\nColors: green = documented · cyan = strong inference · yellow = family compilation · orange = compiled lead · red = unresolved · grey = not set"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e7_15",
+   "fromNode": "a7",
+   "fromSide": "right",
+   "toNode": "a15",
+   "toSide": "left"
+  }
+ ]
+}

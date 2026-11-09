@@ -201,7 +201,7 @@ Ask before building these. Then write small Python scripts in `_System/tools/` t
 - **lines of descent:** each route from an ancestor down to the root person;
 - **check:** a linter that reports broken links, missing required properties, people without sources, and any note that looks like a living person.
 
-Run them all, in a fixed order, at the end of every session. Use Obsidian **Bases** (`.base` files) for live tables of ancestors, sources, evidence levels, immigrants and conflicts.
+Run them all, in a fixed order, at the end of every session. Working examples of all of these, with one settings file to edit and a made-up example vault to test on, are at [github.com/ramseyergpt-sudo/prompts/tree/main/family-history/tools](https://github.com/ramseyergpt-sudo/prompts/tree/main/family-history/tools). Start from them rather than from nothing. Use Obsidian **Bases** (`.base` files) for live tables of ancestors, sources, evidence levels, immigrants and conflicts.
 
 ### Part 7: Publishing a website (optional, later)
 
@@ -215,6 +215,8 @@ Only when I ask, and only after the vault has some substance:
    - replaces paths to files on my computer with the online copy, or with "offline";
    - drops attachments that no published page uses;
    - adds a short notice to every page saying the research is AI-assisted and not every source has been checked by a person.
+
+   Working examples of both scripts are in the tools folder linked in part 6.
 4. **Its own pages:** a home page, an "About this research" page (how it was made, which AIs did what, how to read the evidence levels), and the evidence-level definitions.
 5. **Preview locally** with `npx quartz build --serve` and show me.
 6. **Hosting.** Connect the GitHub repository to a static host that rebuilds on every push to `main`: Cloudflare (Pages or Workers), GitHub Pages or Netlify. Optionally add a custom domain or subdomain.

@@ -1,0 +1,76 @@
+{
+ "nodes": [
+  {
+   "id": "a5",
+   "type": "file",
+   "file": "People/Rose Baker (1904–1990).md",
+   "x": 0,
+   "y": 170,
+   "width": 420,
+   "height": 300,
+   "color": "4"
+  },
+  {
+   "id": "a11",
+   "type": "file",
+   "file": "People/Mary Ward (1876–1945).md",
+   "x": 480,
+   "y": 340,
+   "width": 420,
+   "height": 300,
+   "color": "3"
+  },
+  {
+   "id": "a22",
+   "type": "file",
+   "file": "People/William Ward (1840–1910).md",
+   "x": 960,
+   "y": 340,
+   "width": 420,
+   "height": 300,
+   "color": "2"
+  },
+  {
+   "id": "a10",
+   "type": "file",
+   "file": "People/Henry Baker (1872–1950).md",
+   "x": 480,
+   "y": 0,
+   "width": 420,
+   "height": 300,
+   "color": "3"
+  },
+  {
+   "id": "legend",
+   "type": "text",
+   "x": -480,
+   "y": 0,
+   "width": 420,
+   "height": 230,
+   "text": "**Baker side**\n\nAncestors of the grandparent at left, parents to the right.\n\nColors: green = documented · cyan = strong inference · yellow = family compilation · orange = compiled lead · red = unresolved · grey = not set"
+  }
+ ],
+ "edges": [
+  {
+   "id": "e5_10",
+   "fromNode": "a5",
+   "fromSide": "right",
+   "toNode": "a10",
+   "toSide": "left"
+  },
+  {
+   "id": "e5_11",
+   "fromNode": "a5",
+   "fromSide": "right",
+   "toNode": "a11",
+   "toSide": "left"
+  },
+  {
+   "id": "e11_22",
+   "fromNode": "a11",
+   "fromSide": "right",
+   "toNode": "a22",
+   "toSide": "left"
+  }
+ ]
+}

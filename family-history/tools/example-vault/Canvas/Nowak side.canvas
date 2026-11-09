@@ -1,0 +1,24 @@
+{
+ "nodes": [
+  {
+   "id": "a6",
+   "type": "file",
+   "file": "People/Tomasz Nowak (1898–1960).md",
+   "x": 0,
+   "y": 0,
+   "width": 420,
+   "height": 300,
+   "color": "4"
+  },
+  {
+   "id": "legend",
+   "type": "text",
+   "x": -480,
+   "y": 0,
+   "width": 420,
+   "height": 230,
+   "text": "**Nowak side**\n\nAncestors of the grandparent at left, parents to the right.\n\nColors: green = documented · cyan = strong inference · yellow = family compilation · orange = compiled lead · red = unresolved · grey = not set"
+  }
+ ],
+ "edges": []
+}
