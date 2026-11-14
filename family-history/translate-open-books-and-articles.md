@@ -25,6 +25,11 @@ Before translating anything, establish its status and write it in the file heade
 
 - Use the **best available original**: the first edition, the author's last revised edition, or a scholarly edition of the original text. Say which, and why.
 - Prefer a **proofread transcription** (Wikisource, Project Gutenberg, a scholarly edition) over raw OCR. If only scans exist, transcribe from the page images and proofread against them.
+- **Scanning errors versus printing errors.** OCR of old type, above all German Fraktur, is full of errors that are not in the book: long ſ read as f, "tz" and other letter pairs garbled, footnote numbers misread, words left broken across line ends, stray characters. Check every page against its image, and in the Original column:
+  - **fix silently** anything that is not on the printed page: join words hyphenated across line ends, correct misread letters and footnote numbers, drop stray marks. The column should show what the page actually says;
+  - **keep the period spelling as printed** (for example *Uebersicht*, *Thür*). Write the long ſ as s, and say so in the header;
+  - **keep the author's and printer's own mistakes** (a wrong date, a misspelled name, a misprint) exactly as printed, mark them [sic], and explain them in a TN;
+  - where the **image itself is unclear**, give your best reading followed by `[?]`, with the alternatives in a TN.
 - **Record** the author, title, edition, place, publisher, year, page range, the URL of the copy used, and the date you accessed it.
 - **Check for an existing translation first.** If an open translation already exists, tell me before starting: improving or annotating it may be more useful than making a new one.
 
@@ -54,7 +59,7 @@ Write one Markdown file per work, or one per chapter for a long book. Each file 
 | **Status** | Public domain (published 1804) |
 | **Translation** | English, by Claude (Anthropic), 2026-11-09, for … Draft, not yet reviewed by a person |
 | **Licence of this translation** | CC BY 4.0 (or the original's licence, if it requires one) |
-| **Conventions** | page breaks as [p. n]; translator's notes as TN1, TN2…; ✦ = break added by the translator |
+| **Conventions** | page breaks as [p. n]; translator's notes as TN1, TN2…; ✦ = break added by the translator; [sic] = as printed; long ſ written as s |
 
 | ¶ | Original | Translation |
 |---|---|---|
@@ -71,6 +76,7 @@ Write one Markdown file per work, or one per chapter for a long book. Each file 
 - **Number the rows** by chapter and paragraph (`3.14` = chapter 3, paragraph 14), so anyone can cite a passage in either language.
 - **Keep the original's formatting** in both columns: bold, italics, small capitals rendered as bold, quotations and indented verse.
 - **Long texts:** if a table becomes unwieldy, use one file per chapter, with the same numbering.
+- **Work in batches.** A long chapter will not fit in one reply. Translate a few pages at a time and add each batch to the file as you go. If you are running short of room, stop at the end of a paragraph and say exactly where you stopped (page and row number), then continue from there in the next turn. Never shorten, summarise or skip text to make it fit: the alignment check in step 7 will show any gap.
 - **Optionally,** produce a translation-only reading copy from the table afterwards. The side-by-side file remains the master.
 
 ### 5. Translate faithfully and readably
